@@ -1,0 +1,25 @@
+.wpcoingate-verification-connect {
+	background-color: #000;
+	color: #fff;
+	outline: none;
+	padding: 10px 30px;
+	border: none;
+	cursor: pointer;
+
+	&:hover {
+		background-color: rgba(0, 0, 0, 0.832);
+	}
+}
+
+.web3modal-modal-lightbox {
+	z-index: 9999999 !important;
+}
+
+.wpcoingate-verification-placeholder.unloaded {
+	display: none;
+	margin: 0 0 !important;
+}
+
+// .wptokengate-verification-placeholder > * > *:not(.wp-block-button) {
+// 	width: 100%;
+// }

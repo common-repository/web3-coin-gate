@@ -1,0 +1,52 @@
+#wpcontent {
+	padding-left: 0 !important;
+}
+
+#wp-verify-nft-root {
+
+	.nft-verify-app-mainframe {
+		padding: 30px;
+
+		.wpnftverify-pre-verification-form {
+
+			.wpnftverify-pre-verification-form-footer {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: flex-end;
+
+				& > *:last-child {
+					margin-left: 10px;
+				}
+			}
+		}
+	}
+
+	.verified-nft-result-verified {
+		border: 2px solid green;
+	}
+
+	.verified-nft-result-unverified {
+		border: 2px solid red;
+	}
+
+	.wp-nft-verify {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-self: center;
+
+
+		span {
+			margin: 5px 0 0 0;
+		}
+
+	}
+}
+
+.wp-verify-nft-loader {
+	padding: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

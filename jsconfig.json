@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@wpverifynft/*": [ "./*", "./packages/*/src" ]
+        },
+    },
+    "exclude": [
+		"dist",
+		"node_modules",
+		"lib"
+	]
+}
